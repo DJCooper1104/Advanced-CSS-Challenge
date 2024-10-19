@@ -1,0 +1,31 @@
+
+        .board {
+            display: grid;
+            grid-template-rows: repeat(8, 100px);
+            width: 800px;
+            height: 800px;
+            border: 2px solid black;
+        }
+        .square {
+            width: 100px;
+            height: 100px;
+        }
+
+        tr {
+            display: grid;
+            grid-template-columns: repeat(8, 100px);
+
+        }
+
+        tr:nth-child(even) > div:nth-child(odd) {
+            background-color: black;
+
+        }
+
+        tr:nth-child(odd) > div:nth-child(even) {
+            background-color: black;
+        }
+
+        tr:nth-child(even) > div:nth-child(odd) {
+            background-color: black;
+        }

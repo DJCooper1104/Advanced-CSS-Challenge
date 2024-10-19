@@ -1,0 +1,21 @@
+tr:nth-child(odd) {
+    background-color: red;
+}
+
+table{
+    width: 800px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+img{
+    position: relative;
+    z-index: 1;
+    top: 158px;
+    left: 340px;
+    transform: scale(0.7);
+}
